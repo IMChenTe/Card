@@ -1,0 +1,6 @@
+<button bindtap='secondWay' data-id='1'> 名片01  </button>
+<button bindtap='secondWay' data-id='2'> 名片02  </button>
+<button bindtap='secondWay' data-id='3'> 名片03  </button>
+<button bindtap='secondWay' data-id='4'> 名片04  </button>
+<button bindtap='secondWay' data-id='5'> 名片05  </button>
+<canvas canvas-id='cardCanvas' style='width: 345px;  height: 207px;position: fixed; left: -1000px;'></canvas>

@@ -1,0 +1,331 @@
+.business {
+  padding-bottom: 120rpx;
+}
+.head {
+  margin: 30rpx 36rpx 20rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+.head .headImg {
+  position: relative;
+  width: 618rpx;
+  height: 618rpx;
+  margin: 30rpx auto;
+  background-color: #D8D8D8
+}
+.head .headImg .img {
+  width: 100%;
+  height: 100%;
+}
+.head .headImg .headEdit {
+  position: absolute;
+  right: 0;
+  top: 28rpx;
+  width: 144rpx;
+  line-height: 44rpx;
+  background: #999999;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  border-radius: 40rpx 0 0 40rpx;
+}
+.head .headMessage {
+  position: relative;
+  margin: 0 30rpx 40rpx;
+}
+.headMessage .name {
+  color: #333333;
+  font-size: 40rpx;
+}
+.headMessage .job {
+  color: #666666;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.headMessage .tel {
+  color: #666666;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.headMessage .tel .telImg {
+  width: 24rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.headMessage .tel .phone {
+  margin-left: 10rpx;
+  vertical-align: middle;
+}
+.headMessage .shareBtn {
+  position: absolute;
+  right: 0;
+  bottom: 68rpx;
+  width: 202rpx;
+  line-height: 66rpx;
+  background-color: #0BBF8B;
+  color: #fff;
+  font-size: 24rpx;
+}
+.headMessage .shareBtn .shareImg {
+  width: 33rpx;
+  height: 33rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.msgCard {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding-left: 30rpx;
+  overflow: hidden;
+}
+.msgCard .title {
+  line-height: 100rpx;
+}
+.msgCard .title .leftText {
+  position: relative;
+  color: #333333;
+  font-size: 36rpx;
+  padding-left: 24rpx;
+}
+.msgCard .title .leftText::before {
+  content: '';
+  position: absolute;
+  left: 8rpx;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 8rpx;
+  height: 28rpx;
+  border-radius: 2rpx;
+  background-color: #0BBF8B;
+}
+.msgCard .title .editText {
+  float: right;
+  line-height: 100rpx;
+  margin-right: 30rpx;
+  color: #0BBF8B;
+  font-size: 26rpx;
+}
+.msgCard .msgList {
+  border-bottom: 1px solid #ECECEC;
+  font-size: 30rpx;
+  line-height: 100rpx;
+}
+.msgCard .msgList .msgicon {
+  vertical-align: middle;
+  position: relative;
+  top: -2rpx;
+}
+.msgicon1 {
+  width: 24rpx;
+  height: 30rpx;
+}
+.msgicon2 {
+  width: 31rpx;
+  height: 26rpx;
+}
+.msgicon3 {
+  width: 28rpx;
+  height: 22rpx;
+}
+.msgicon4 {
+  width: 24rpx;
+  height: 30rpx;
+}
+.msgCard .msgList .centerText {
+  color: #333;
+  margin-left: 20rpx;
+}
+.msgCard .msgList .rightText {
+  color: #666;
+  float: right;
+  margin-right: 30rpx;
+}
+.jobList {
+  position: relative;
+  border-bottom: 1px solid #ECECEC;
+  padding: 28rpx 0;
+  text-align: left;
+}
+.jobList .jobName {
+  color: #333333;
+  font-size: 32rpx;
+}
+.jobList .jobCompany {
+  color: #777777;
+  font-size: 28rpx;
+  margin: 4rpx 0 10rpx;
+}
+.jobList .jobTag {
+  color: #AAAAAA;
+  font-size: 24rpx;
+}
+.jobList .jobTag .tag {
+  position: relative;
+  margin-right: 24rpx;
+}
+.jobList .jobTag .tag::after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 20rpx;
+  background-color: #AAAAAA;
+  right: -12rpx;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.jobList .jobTag .tag:last-child::after {
+  content: none
+}
+.jobList .jobPay {
+  color: #FF6952;
+  font-size: 28rpx;
+  position: absolute;
+  top: 28rpx;
+  right: 30rpx;
+}
+.addJob {
+  display: block;
+  line-height: 100rpx;
+  width: 100%;
+  text-align: center;
+  color: #333333;
+  font-size: 30rpx;
+}
+.addJob .addJobImg {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  position: relative;
+  top: -2rpx;
+  margin-right: 16rpx;
+}
+.profileContent {
+  margin: 29rpx 30rpx 29rpx 0;
+  color: #666666;
+  font-size: 30rpx;
+}
+/* 分享弹出层 Start */
+
+/* 后面阴影 */
+.pageBody{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#000000;
+  opacity: 0.5;
+}
+
+.creatMycard {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  width: 100%;
+  background-color: #0BBF8B;
+  color: #fff;
+  font-size: 36rpx;
+  line-height: 100rpx;
+  margin-top: 60rpx;
+  border-radius: 0;
+}
+
+/* 隐藏 */
+.notShow{
+  display: none;
+}
+
+/* C端 Start */
+
+/* 因为head使用了overflow:hidden;所以超出不显示，所以在外面使用定位，以此达到显示超出部分的目的  */
+
+/* C端 咨询按钮 Start */
+.consultBtn{
+  position: fixed;
+  z-index: 999;
+  right: 24rpx;
+  top:880rpx;
+  width: 99rpx;
+  height: 99rpx;
+  line-height: 33rpx;
+  background-color: #F5A854;
+  color: #fff;
+  font-size: 24rpx;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 50%;
+  align-items:center;
+  padding-top: 13rpx; 
+}
+.consultImg {
+  width: 36rpx;
+  height: 39rpx;
+  vertical-align: middle;
+}
+/* C端 咨询按钮 End */
+/* C端 分享按钮 Start */
+/* .shareBtn2{
+  position: absolute;
+  right: 0;
+  bottom: 68rpx;
+  width: 202rpx;
+  line-height: 66rpx;
+  background-color: #0BBF8B;
+  color: #fff;
+  font-size: 24rpx;
+}
+.shareBtn2 .shareImg2 {
+  width: 33rpx;
+  height: 33rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+} */
+
+/* C端 分享按钮 End */
+
+.title2{
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.handText{
+  color: #666666;
+  font-size: 24rpx;
+  line-height: 33rpx;
+}
+
+.msgList2{
+  border-bottom: 1px solid #ECECEC;
+  font-size: 30rpx;
+  line-height: 100rpx;
+}
+.msgList2 .msgicon {
+  vertical-align: middle;
+  position: relative;
+  top: -2rpx;
+}
+.msgList2 .leftText {
+  color: #333;
+  margin-left: 20rpx;
+}
+.msgList2 .centerText {
+  color: #666;
+  margin-left: 20rpx;
+  text-align: left;
+}
+.msgList2 .rightBtn {
+  display: inline;
+  color: #0BBF8B;
+  border: 1rpx solid #0BBF8B;
+  font-size: 24rpx;
+  line-height: 33rpx;
+  padding: 0 17rpx;
+  border-radius: 2rpx;
+}
+.form{
+  position:absolute;
+  right:9rpx;
+  width:100rpx;
+}
+
+/* C端 End */
